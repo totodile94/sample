@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>J.A.R.V.I.S</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="testreq.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    
+      
+      <div class="navbar navbar-default navi" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toogle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand name">J.A.R.V.I.S</a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#guide"data-toggle="modal">User-Guide</a></li>
+                <li><a href="#test" data-toggle="modal">Test YourSelf</a></li>
+                <li><a href="#about" data-toggle="modal">About Us</a></li>
+                <li><a href="#login" data-toggle="modal">Log-In</a></li>
+                <li><a href="#signup" data-toggle="modal">Signup</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+              
+      <div class="page-header report">
+        <h3>Report Availability</h3>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-md-offset-2 rep">
+            <p>Click on With Report Button, if you have a complete Lab Test Report having Diagnosed Diabetes Mellitus informations</p>
+            <a href="#" class="btn btn-primary">With Report</a>
+          </div>
+          <div class="col-md-3 col-md-offset-2 rep">
+            <p>Click on Without Report Button, if you doesn't have your Lab Report</p>
+            <a href="#" class="btn btn-warning"> Without Report</a>
+          </div>
+        </div>
+      </div>
+
+
+  </div>    
+            <div class="modal fade" id="login" role="dialog">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Sign-In</h3>
+                  </div>
+                  <div class="modal-body sign">
+                    <input type="text" name="Username" placeholder="UserName/Email-Id"><br/>
+                    <input type="password" name="password" placeholder="Password">
+                    <a href="#" class="btn btn-primary dis">Login</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#" class="btn btn-danger" data-dismiss="modal">Close</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+       <div class="modal fade" id="test" role="dialog">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title">Instruction</h3>
+             </div>
+             <div class="modal-body">
+               <ul>
+                 <li>The User should have a minimum knowledge to use this Expert System as given as follows:</li>
+                 <li>User should be able to understand technical terms(in English).</li>
+                 <li>User have to answer for all the questions given in a proper way.</li>
+                 <li>Incomplete data will cause you a incorrect result.</li>
+                 <li>Developer of this Expert System is not responsible, if the wrong input is passed and resulting in a wrong diagnosis and medication report generation.</li>
+                 <li>User needs to have his latest blood test report to produce accurate results.</li>
+                 <li>This Expert System is not a replacement of a human expert, but to check in prior before consult with a doctor.</li>
+               </ul>
+             </div>
+             <div class="modal-footer">
+               <a href="#" class="btn btn-danger">Proceed Your Test</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="modal fade" id="about" role="dialog">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title">About Us</h3>
+             </div>
+             <div class="modal-body">
+                <b><u>Developed By</u></b>
+                <ul id="about">
+                <li>Karthik Sekaran, V.K.Girish,</li>
+                <li>M.Tech. Software Engineering,</li>
+                <li>developers.esshell@vit.ac.in</li>
+                <li>project-j.a.r.v.i.s.</li>
+                <li>Visit us at:gmail.com</li>
+                <li>VIT University.</li>
+                </ul>
+             </div>
+             <div class="modal-footer">
+               <a href="#" class="btn btn-danger" data-dismiss="modal">Close</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="modal fade" id="guide" role="dialog">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title">Instruction</h3>
+             </div>
+             <div class="modal-body user">
+                <p>Educating people to earn some prior knowledge to know about diabetes mellitus and how to use this system.</p>
+                <h3>DIABETES</h3>
+                <p>A disorder of the metabolism causing excessive thirst and the production of large amounts of urine.</p>
+                <h3>Diabetes Mellitus Classifications:</h3>
+                <h4>Type - 1</h4>
+                <p>Type 1 diabetes, once known as juvenile diabetes or insulin-dependent diabetes, is a chronic condition in which the pancreas produces little or no insulin, a hormone needed to allow sugar (glucose) to enter cells to produce energy.</p>
+                <h4>Type - 2</h4><p>Type 2 diabetes, once known as adult-onset or noninsulin-dependent diabetes, is a chronic condition that affects the way your body metabolizes sugar (glucose), your body's important source of fuel.</p>
+                <h4>Gestational Diabetes</h4><p>Gestational diabetes (or gestational diabetes mellitus, GDM) is a condition in which women without previously diagnosed diabetes exhibit high blood glucose (blood sugar) levels during pregnancy (especially during their third trimester).</p>
+                <h4>Other Form of Diabetes</h4>
+                  <ul>
+                    <li>Genetic defects of beta-cell function</li>
+                    <li>Genetic defects in insulin action</li>
+                    <li>Diseases of the exocrine pancreas</li>
+                    <li>Endocrinopathies</li>
+                    <li> Drug- or chemical-induced</li>
+                    <li>Infections</li>
+                    <li>Uncommon forms of immune-mediated diabetes</li>
+                    <li> Other genetic syndromes sometimes associated with diabetes</li>
+                  </ul>
+             </div>
+             <div class="modal-footer">
+               <a href="#" class="btn btn-primary" data-dismiss="modal">close </a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="modal fade" id="signup" role="dialog">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Sign-In</h3>
+                  </div>
+                  <div class="modal-body sign">
+                    <input type="text" name="username" placeholder="UserName"><br/>
+                    <input type="email" name="emailid" placeholder="Email-Id"><br/>
+                    <input type="password" name="password" placeholder="Password">
+                    <a href="#" class="btn btn-primary dis">signup</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#" class="btn btn-danger" data-dismiss="modal">Close</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+       
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
